@@ -8,7 +8,7 @@ $(function(){
             success: function(data){
                 var bebidas = data;
                 bebidas.forEach(function(item){
-                    $('#list').append('<li>'+item.descricao+'</li>');
+                    $('#list').append('<li><h1>'+item.descricao+'</h1></li>');
                 });                
             }
         })
